@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cash and Carry Online Stores Dashboard</title>
+    <title>SQL Code Showcase</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Cash and Carry Online Stores Dashboard</h1>
-    <p>This is the homepage for the project.</p>
+    <h1>SQL Code Examples</h1>
+    <p>Below is an example of SQL code:</p>
+    <pre><code class="language-sql">
+        SELECT Category, SUM(Sales) AS TotalSales
+        FROM CashAndCarry
+        WHERE Year BETWEEN 2011 AND 2014
+        GROUP BY Category;
+    </code></pre>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-sql.min.js"></script>
 </body>
 </html>
+
