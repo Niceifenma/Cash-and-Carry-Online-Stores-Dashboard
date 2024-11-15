@@ -138,7 +138,6 @@ The snapshot of the Power BI dashboard overview is presented below,
 ![EX  Summary Sales Analysis](https://github.com/user-attachments/assets/c909dcb8-d236-433e-a48e-a62ee9ac1f87)
 
 
-
 ---
 
 # Insights Deep Dive
