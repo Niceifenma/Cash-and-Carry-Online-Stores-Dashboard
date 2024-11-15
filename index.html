@@ -15,20 +15,99 @@
             padding: 10px;
             border-radius: 5px;
         }
+        .section {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>SQL Code Examples</h1>
-    <p>Below is an example of SQL code:</p>
-    <pre><code class="language-sql">
-        SELECT Category, SUM(Sales) AS TotalSales
-        FROM CashAndCarry
-        WHERE Year BETWEEN 2011 AND 2014
-        GROUP BY Category;
-    </code></pre>
+    <h1>SQL Code Showcase</h1>
+
+    <h2 id="overview">Overview</h2>
+    <div class="section">
+        <p>Below are SQL queries used to understand and summarize the data in the "Cashandcarrysales" dataset:</p>
+        <pre><code class="language-sql">
+USE MYFINALPROJECT;
+
+-- OVERVIEW OF THE DATA/UNDERSTANDING THE DATA:
+SELECT * FROM Cashandcarrysales;
+
+-- 1a) Determining the Duration Covered by the Sales Data
+SELECT DISTINCT Year
+FROM Cashandcarrysales
+ORDER BY YEAR DESC;
+
+-- 1b) Identifying Product Categories in the Store
+SELECT DISTINCT Category
+FROM Cashandcarrysales;
+
+-- 1c) Products Offered by the Organization
+SELECT DISTINCT Product_Name
+FROM Cashandcarrysales;
+
+-- 1d) Total Count of Products Provided by the Organization
+SELECT COUNT(DISTINCT Product_Name) AS Numberofproductsinstore 
+FROM Cashandcarrysales;
+
+-- 1e) Top 10 Most Frequently Purchased Products or Orders
+SELECT TOP 10 Product_Name, Product_ID, SUM(Quantity) AS TotalQuantity
+FROM Cashandcarrysales
+WHERE Year BETWEEN 2011 AND 2014
+GROUP BY Product_Name, Product_ID
+ORDER BY TotalQuantity DESC;
+
+-- 1f) Identifying the Markets Linked to Purchases from the CashandCarry Organization
+SELECT DISTINCT
+CASE 
+WHEN Market <> Market2 AND Market2 IS NOT NULL 
+THEN Market + ' ' + Market2
+ELSE Market
+END AS CombinedMarket
+FROM Cashandcarrysales
+GROUP BY Market, Market2
+ORDER BY CombinedMarket;
+
+-- 1g) Identifying the Countries that Purchase from the CashandCarry Organization 
+SELECT DISTINCT Country
+FROM Cashandcarrysales;
+
+-- 1h) Identifying the Number of Countries that Patronize CashandCarry
+SELECT COUNT(DISTINCT Country)
+FROM Cashandcarrysales;
+
+-- 1i) Number of Customers that Buy from CashandCarry Stores
+SELECT COUNT(DISTINCT Customer_Name)
+FROM Cashandcarrysales;
+
+-- 1j) Names of CashandCarry Customers
+SELECT DISTINCT Customer_ID, Customer_Name
+FROM Cashandcarrysales;
+
+-- 1k) Types of Customer Segments or Buyer Categories for the CashandCarry Business
+SELECT DISTINCT Segment
+FROM Cashandcarrysales;
+
+-- 1l) Levels of Order Priority Used in Fulfilling Customers' Orders
+SELECT DISTINCT Order_Priority
+FROM Cashandcarrysales;
+
+-- 1m) Top 10 Most Loyal Customers of CashandCarry Stores
+SELECT TOP 10 
+    Customer_Name, 
+    Customer_ID, 
+    SUM(Quantity) AS TotalQuantity, 
+    COUNT(DISTINCT Order_ID) AS TotalOrders
+FROM Cashandcarrysales
+GROUP BY Customer_Name, Customer_ID
+ORDER BY TotalOrders DESC;
+
+-- 1n) The Shipping Modes Available for Delivering Products to Customers
+SELECT DISTINCT Ship_Mode
+FROM Cashandcarrysales;
+        </code></pre>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-sql.min.js"></script>
 </body>
 </html>
-
