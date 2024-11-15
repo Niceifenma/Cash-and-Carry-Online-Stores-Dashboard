@@ -132,9 +132,10 @@ Download Power BI Sales Analysis Report in PDF File and  Power Point file here: 
 From 2011 to 2014, CashandCarry experienced consistent growth in sales and profits, with peak performances during the holiday seasons. Key performance indicators have shown year-over-year increases in sales (51.4%) and profit (58.84%). However, February showed a decline in both sales and profit due to post-holiday slowdowns and a decrease in product discounts. Additional drivers and areas for improvement are addressed further in this report.
 Discover key insights through the Executive Summary dashboard here: [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/de49815e-e815-4314-9c60-c7769ae958e2/173da6f4c01869e6e648?experience=power-bi).
 
-The snapshot of Power BI dashboard overview is presented below,
+The snapshot of the Power BI dashboard overview is presented below,
 
-![EX  Summary Overview](https://github.com/user-attachments/assets/9c1a412c-6848-4b6d-8902-6ebdcf72fa5e)
+
+![EX  Summary Sales Analysis](https://github.com/user-attachments/assets/c909dcb8-d236-433e-a48e-a62ee9ac1f87)
 
 
 
