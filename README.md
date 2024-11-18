@@ -137,6 +137,7 @@ The snapshot of the Power BI dashboard overview is presented below,
 [Ex Summary Overview](https://imgur.com/9OGp4EU)
 
 
+
 ---
 
 # Insights Deep Dive
@@ -149,6 +150,7 @@ The snapshot of the Power BI dashboard overview is presented below,
 - Increase in revenue is notably consistent in the fourth quarter. 
 - Year-over-year orders and sales have consistently increased over the years, which can be attributed to the marketing team's sustained efforts in promoting products.
 
+![EX Summary Sales Analysis]..(https://github.com/user-attachments/assets/2d00b96a-a657-431e-9a56-bdd7203f78da)
 
 
 !..(https://github.com/user-attachments/assets/2d00b96a-a657-431e-9a56-bdd7203f78da)
