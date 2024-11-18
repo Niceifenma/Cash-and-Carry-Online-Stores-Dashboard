@@ -136,6 +136,9 @@ The snapshot of the Power BI dashboard overview is presented below,
 
 ![EX Summary Overview](https://github.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/blob/fc5afe6cdc132e08d20d0e79b9bfdb92db143e23/EX_Summary_Overview_png.png)
 
+![EX Summary Overview](https://raw.githubusercontent.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/main/EX_Summary_Overview.png)
+
+
 
 ---
 
