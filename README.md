@@ -151,7 +151,7 @@ The snapshot of the Power BI dashboard overview is presented below,
 
 
 
-![EX  Summary Sales Analysis]..(https://github.com/user-attachments/assets/2d00b96a-a657-431e-9a56-bdd7203f78da)
+!..(https://github.com/user-attachments/assets/2d00b96a-a657-431e-9a56-bdd7203f78da)
 
 
 #### 2. Sales by Product
