@@ -147,10 +147,11 @@ The snapshot of the Power BI dashboard overview is presented below,
 - Yearly sales: $2,259,511 (2011), $2,677,493 (2012), $3,405,860 (2013), $4,300,041 (2014).
 - The store experienced steady sales growth across the year.  Sales peaked during December each year, with a November peak in 2014. February saw significant declines across the board. This increase during the holiday season is likely driven by gift purchases and promotional discounts. Decline in February sales across the years could be, likely due to post-holiday slowdowns and fewer discounts.
 - Increase in revenue is notably consistent in the fourth quarter. 
-- Year-over-year order and sales have consistently increased over the years, which can be attributed to the marketing team's sustained efforts in promoting products.
+- Year-over-year orders and sales have consistently increased over the years, which can be attributed to the marketing team's sustained efforts in promoting products.
 
 
-![EX  Summary Overview](https://github.com/user-attachments/assets/60387f3b-b7e4-4636-b70e-826d93fef2c9)
+
+![EX  Summary Sales Analysis]..(https://github.com/user-attachments/assets/2d00b96a-a657-431e-9a56-bdd7203f78da)
 
 
 #### 2. Sales by Product
