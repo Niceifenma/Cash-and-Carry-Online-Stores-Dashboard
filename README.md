@@ -134,7 +134,7 @@ Discover key insights through the Executive Summary dashboard here: [Power BI Da
 
 The snapshot of the Power BI dashboard overview is presented below,
 
-![EX  Summary Overview](https://github.com/user-attachments/assets/14229dfe-0984-4907-abeb-9a670fa5c9a5)
+[Ex Summary Overview](https://imgur.com/9OGp4EU)
 
 
 ---
