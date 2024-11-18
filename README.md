@@ -55,7 +55,7 @@ Insights and recommendations are provided by exploring the sales data to answer 
 #### 4. Sales Analysis by Customers
 - Who are the top and lowest sales-contributing customers from 2011 to 2014?
 - Who are the yearly top sales-generating customers?
-- Who are the Key customers from the highest sales-contributing country (United States)?
+- Who are the key customers from the country with the highest sales contribution (United States)?
 
 #### 5. Sales Analysis by Customer Segment
 - Which customer segment is driving the most revenue?
@@ -134,10 +134,8 @@ Discover key insights through the Executive Summary dashboard here: [Power BI Da
 
 The snapshot of the Power BI dashboard overview is presented below,
 
-
-![EX Summary Overview](https://github.com/user-attachments/assets/c909dcb8-d236-433e-a48e-a62ee9ac1f87)
-
 ![EX  Summary Overview](https://github.com/user-attachments/assets/14229dfe-0984-4907-abeb-9a670fa5c9a5)
+
 
 ---
 
