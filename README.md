@@ -136,7 +136,7 @@ The snapshot of the Power BI dashboard overview is presented below,
 
 ![EX Summary Overview](https://github.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/blob/fc5afe6cdc132e08d20d0e79b9bfdb92db143e23/EX_Summary_Overview_png.png)
 
-![EX Summary Overview](https://raw.githubusercontent.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/main/EX_Summary_Overview.png)
+![EX Summary Overview](https://raw.githubusercontent.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/main/EX_Summary_Overview.png#gh.light.mode.only)
 
 
 
@@ -148,7 +148,7 @@ The snapshot of the Power BI dashboard overview is presented below,
 #### 1. Total Sales
 - Total sales from 2011 to 2014: $12,642,905.00.
 - Yearly sales: $2,259,511 (2011), $2,677,493 (2012), $3,405,860 (2013), $4,300,041 (2014).
-- The store experienced steady sales growth across the year.  Sales peaked during December each year, with a November peak in 2014. February saw significant declines across the board. This increase during the holiday season is likely driven by gift purchases and promotional discounts. Decline in February sales across the years could be, likely due to post-holiday slowdowns and fewer discounts.
+The store experienced steady sales growth across the year. Sales peaked during December each year, with a November peak in 2014. February saw significant declines across the board. Gift purchases and promotional discounts likely drive this increase during the holiday season. Decline in February sales across the years could be due to post-holiday slowdowns and fewer discounts.
 - Increase in revenue is notably consistent in the fourth quarter. 
 - Year-over-year orders and sales have consistently increased over the years, which can be attributed to the marketing team's sustained efforts in promoting products.
 
