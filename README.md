@@ -120,7 +120,7 @@ Shipping : [SQL queries](https://github.com/Niceifenma/Cash-and-Carry-Online-Sto
 
 # Visualization
 Data visualizations were created using Power BI, with key insights represented via interactive dashboards. 
-Explore the Report dashboard here: [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/de49815e-e815-4314-9c60-c7769ae958e2/173da6f4c01869e6e648?experience=power-bi).
+Explore the Report dashboard here: [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/de49815e-e815-4314-9c60-c7769ae958e2/8f713d6180ed63b10e06?experience=power-bi).
 
 Download Power BI Sales Analysis Report in PDF File and  PowerPoint file here: [Power BI Dashboard](https://github.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/releases/tag/v1.0).
 
