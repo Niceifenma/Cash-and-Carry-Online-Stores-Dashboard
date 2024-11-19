@@ -133,14 +133,12 @@ From 2011 to 2014, CashandCarry experienced consistent growth in sales and profi
 Discover key insights through the Executive Summary dashboard here: [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/de49815e-e815-4314-9c60-c7769ae958e2/173da6f4c01869e6e648?experience=power-bi).
 
 The snapshot of the Power BI dashboard overview is presented below,
-
-![EX Summary Overview](https://github.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/blob/fc5afe6cdc132e08d20d0e79b9bfdb92db143e23/EX_Summary_Overview_png.png)
-
-![EX Summary Overview](https://raw.githubusercontent.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/main/EX_Summary_Overview.png#gh.light.mode.only)
-
+![EX Summary Overview](https://github.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/blob/c3f028e1c970514042f84789121e115e5a7044c5/EX_Summary_Overview_png%20(1).png)
 
 
 ---
+
+
 
 # Insights Deep Dive
 
