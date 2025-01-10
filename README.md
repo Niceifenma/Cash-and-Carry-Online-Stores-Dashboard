@@ -2,12 +2,12 @@
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Data Sources](#data-sources)
-3. [Tools](#tools)
-4. [Exploratory Data Analysis](#exploratory-data-analysis)
-5. [Data Analysis](#data-analysis)
-6. [Visualization](#visualization)
-7. [Executive Summary](#executive-summary)
+2. [Executive Summary](#executive-summary)
+3. [Data Sources](#data-sources)
+4. [Tools](#tools)
+5. [Exploratory Data Analysis](#exploratory-data-analysis)
+6. [Data Analysis](#data-analysis)
+7. [Visualization](#visualization)
 8. [Insights Deep Dive/Results](#insights-deep-dive)
 9. [Recommendations](#recommendations)
 10. [Assumptions and Caveats](#assumptions-and-caveats)
@@ -21,9 +21,35 @@ CashandCarry was launched in 2010 as a global online retailer offering a wide ra
 The SQL scripts utilized to extract valuable insights and enhance our understanding of the dataset are available for download here: [SQL queries](https://niceifenma.github.io/Cash-and-Carry-Online-Stores-Dashboard/), or here:[SQL queries](https://github.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/blob/main/OVERVIEW%20OF%20THE%20DATA%20OR%20UNDERSTANDING%20THE%20DATA.sql).
 
 ---
+# Executive Summary
+From 2011 to 2014, CashandCarry experienced consistent growth in sales and profits, with peak performances during the holiday seasons. Key performance indicators have shown year-over-year increases in sales (51.4%) and profit (58.84%). However, February showed a decline in sales and profit due to post-holiday slowdowns and a decrease in product discounts. This report addresses additional drivers and areas for improvement.
+Discover key insights through the Executive Summary dashboard here: [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/de49815e-e815-4314-9c60-c7769ae958e2/173da6f4c01869e6e648?experience=power-bi).
+
+The snapshot of the Power BI dashboard overview is presented below,
+![EX Summary Overview](https://github.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/blob/c3f028e1c970514042f84789121e115e5a7044c5/EX_Summary_Overview_png%20(1).png)
+
+---
 
 # Data Sources
 The dataset used for this analysis, titled **Cashandcarrysales.csv**, was provided by Attueyi Coding Academy as a portfolio project. The data is fictional and includes detailed information on sales, customers, products, shipping, and discounts.
+
+---
+
+# Dataset Structure
+The dataset used for this project contains detailed information about sales, customers, products, shipping, and discounts from 2011 to 2014. Below is a description of the key columns:
+
+- Category: The main product categories are Office Supplies, Technology, and Furniture.
+- Sub-Category include: Supplies, Storage, Phones, Fasteners, Copiers, Chairs, Bookcases, Machines, Art, Envelopes, Binders, Labels, Furnishings, Accessories, Appliances, and Paper.
+- Sales: Revenue generated from each transaction is in dollars.
+- Discount: The discount is applied to the product as a percentage, e.g., 0.1 for 10%.
+- Year: The transaction occurred from 2011 to 2014.
+- Month: The transactions took place in all the months of the year (from January to December).
+- Customer Name: The name of the customer who made the purchase.
+- Country: The country of the customer who made the purchase.
+- Segments: The customers are grouped into three segments — Corporate, Home Office, and Consumer. This is based on their purchasing needs.
+- Order Priority: The priority levels of the order are High, Medium, and Low.
+- Ship Mode: The shipping methods used are Standard Class, First Class, and Second Class.
+- Profit: The profit earned from each transaction.
 
 ---
 
@@ -41,6 +67,7 @@ Insights and recommendations are provided by exploring the sales data to answer 
 - What are the overall sales from 2011 to 2014?
 - What are the yearly sales?
 - What are the peak sales period trends?
+-  What is the Year-over-Year (YoY) growth in sales?
 
 #### 2. Sales Analysis by Product
 - What are the Best and worst-selling products between 2011 and 2014?
@@ -64,11 +91,14 @@ Insights and recommendations are provided by exploring the sales data to answer 
 #### 6. Sales Analysis by Order Priority
 - Which order priority levels contributed the most and least to total sales between 2011 and 2014?
 
+
 ### Category II: Profit Analysis
 #### 1. Total Profit
 - What profit was earned from 2011 to 2014?
 - Evaluate the annual profit trends.
 - What are the peak profit and loss period trends?
+- What is the Year-over-Year (YoY) growth in profit?
+
 
 #### 2. Profit Analysis by Product
 - What are the top and least profit-generating products for each year from 2011 to 2014?
@@ -89,6 +119,7 @@ Insights and recommendations are provided by exploring the sales data to answer 
 
 #### 6. Profit Analysis by Order Priority
 - Which order priority level contributed the most and least to total profit from 2011 to 2014?
+
 
 ### Category III: Discount Analysis
 - What is the total amount discounted from 2011 to 2014?
@@ -128,16 +159,6 @@ Download Power BI Sales Analysis Report in PDF File and  PowerPoint file here: [
 
 ---  
 
-# Executive Summary
-From 2011 to 2014, CashandCarry experienced consistent growth in sales and profits, with peak performances during the holiday seasons. Key performance indicators have shown year-over-year increases in sales (51.4%) and profit (58.84%). However, February showed a decline in sales and profit due to post-holiday slowdowns and a decrease in product discounts. This report addresses additional drivers and areas for improvement.
-Discover key insights through the Executive Summary dashboard here: [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/de49815e-e815-4314-9c60-c7769ae958e2/173da6f4c01869e6e648?experience=power-bi).
-
-The snapshot of the Power BI dashboard overview is presented below,
-![EX Summary Overview](https://github.com/Niceifenma/Cash-and-Carry-Online-Stores-Dashboard/blob/c3f028e1c970514042f84789121e115e5a7044c5/EX_Summary_Overview_png%20(1).png)
-
-
----
-
 
 
 # Insights Deep Dive
@@ -146,9 +167,10 @@ The snapshot of the Power BI dashboard overview is presented below,
 #### 1. Total Sales
 - Total sales from 2011 to 2014: $12,642,905.00.
 - Yearly sales: $2,259,511 (2011), $2,677,493 (2012), $3,405,860 (2013), $4,300,041 (2014).
-The store experienced steady sales growth across the year. Sales peaked during December each year, with a November peak in 2014. February saw significant declines across the board. Gift purchases and promotional discounts likely drive this increase during the holiday season. Decline in February sales across the years could be due to post-holiday slowdowns and fewer discounts.
+The store experienced steady sales growth across the year. Sales peaked during December each year, with a November peak in 2014. February saw significant declines across the board. Gift purchases and promotional discounts likely drive this increase during the holiday season. The decline in February sales across the years could be due to post-holiday slowdowns and fewer discounts.
 - Increase in revenue is notably consistent in the fourth quarter. 
 - Year-over-year orders and sales have consistently increased over the years, which can be attributed to the marketing team's sustained efforts in promoting products.
+- The sales growth experienced a steady increase over the years: 18.5% in 2012, 27.2% in 2013, and 26.3% in 2014.
 
 ![EX Summary Sales Analysis](https://github.com/user-attachments/assets/2d00b96a-a657-431e-9a56-bdd7203f78da)
 
@@ -177,7 +199,7 @@ The store experienced steady sales growth across the year. Sales peaked during D
 
 #### 6. Sales Analysis by Order Priority
 - Medium-priority orders contributed the most to total sales consistently for all four years., while Low-priority orders contributed the least.
-
+  
 
 ---
 
@@ -187,8 +209,8 @@ The store experienced steady sales growth across the year. Sales peaked during D
 - Yearly profit: $383,683.80 (2011), $527,307.47 (2012), $658,726.13 (2013), $818,386.11 (2014).
 - From 2011 to 2014, Profits peaked in December, November, September, and November respectively.
  - Losses recorded during 2011-2014, were in April, February, February, and January respectively, mostly during post-holiday months, likely due to poor sales.  
- - The Profit saw a year-over-year increase in all the years with a slight decrease in 2013. 
- 
+ - Profit growth declined to 24.2% in 2014, compared to 25% in 2013 and 37.4% in 2012, despite sales growth rising to 26.3%. This drop may be due to increased operational costs, higher discounts, rising shipping expenses, or a shift toward lower-margin products. Additional factors like higher marketing and logistics costs to achieve sales growth likely reduced profitability.
+   
 ![EX  Summary Profit Analysis](https://github.com/user-attachments/assets/a05acdd8-e842-49a6-a228-7b0cc8f1db0b)
 
 #### 2. Profit by Product 
