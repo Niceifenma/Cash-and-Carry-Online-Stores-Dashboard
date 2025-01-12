@@ -198,9 +198,8 @@ The store experienced steady sales growth across the year. Sales peaked during D
 - Technology was the top-selling category for the Consumer segment.
 
 #### 6. Sales Analysis by Order Priority
-- Medium-priority orders contributed the most to total sales consistently for all four years., while Low-priority orders contributed the least.
+- Medium-priority orders contributed the most consistently to total sales for all four years, while low-priority orders contributed the least. Medium-priority orders could contribute more to sales as they represent a larger volume of routine purchases, catering to a broader customer base. High-priority orders, being fewer and focused on urgency, may not drive the same scale of revenue despite their premium nature.
   
-
 ---
 
 ### Category II: Profit Analysis
@@ -208,7 +207,7 @@ The store experienced steady sales growth across the year. Sales peaked during D
 - Total profit earned (2011-2014): $2,388,103.51.
 - Yearly profit: $383,683.80 (2011), $527,307.47 (2012), $658,726.13 (2013), $818,386.11 (2014).
 - From 2011 to 2014, Profits peaked in December, November, September, and November respectively.
- - Losses recorded during 2011-2014, were in April, February, February, and January respectively, mostly during post-holiday months, likely due to poor sales.  
+ - Losses recorded during 2011-2014, were in April, February, and January respectively, mostly during post-holiday months, likely due to poor sales.  
  - Profit growth declined to 24.2% in 2014, compared to 25% in 2013 and 37.4% in 2012, despite sales growth rising to 26.3%. This drop may be due to increased operational costs, higher discounts, rising shipping expenses, or a shift toward lower-margin products. Additional factors like higher marketing and logistics costs to achieve sales growth likely reduced profitability.
    
 ![EX  Summary Profit Analysis](https://github.com/user-attachments/assets/a05acdd8-e842-49a6-a228-7b0cc8f1db0b)
@@ -232,10 +231,8 @@ c)	The key customers from the top profit-contributing country, the United States
 - The Consumer segment consistently drove the highest profits, with Office Supplies leading in profit contribution each year.
 
 #### 6. Profit Analysis by Order Priority
-- Medium-priority consistently contributed the most to profit across all four years. Conversely, the Low priority level contributed the least to profit in each year.
+- Medium-priority consistently contributed the most to profit across all four years. Conversely, the Low priority level contributed the least to profit each year. Medium-priority orders likely performed better in profit because they balance customer expectations and operational costs, allowing for efficient processing without the additional expenses associated with high-priority handling. In contrast, high-priority orders may incur higher costs for expedited services, reducing overall profitability.
  
-  
-
 ---
 
 ### Category III: Discount Analysis
@@ -264,9 +261,9 @@ Discounts effectively drive sales, especially in Furniture. However, in Office S
 # Recommendations
 In light of the insights and findings presented, we recommend that the stakeholder team consider the following, with specific actions directed at relevant teams:
 - **Marketing Team**: Increase promotional efforts during November and December, especially for Technology and office supplies products.
-- **Product Management Team**: Focus on promoting and stocking best-selling products like the Canon Image CLASS 2200 Advanced Copier. Also, maintain stock and marketing efforts for profitable items from the office suppies category.
+- **Product Management Team**: Focus on promoting and stocking best-selling products like the Canon Image CLASS 2200 Advanced Copier. Also, maintain stock and marketing efforts for profitable items from the office supplies category.
 - **Product Development and Finance Teams**: Revamp product category that is  underperforming  in sales (e.g., Office Supplies, Eureka Disposable Bags). Adjust pricing strategies to maximize profits while staying competitive, considering options like bundling, promotions, or product discontinuation.
-- **Marketing and Digital Advertising Teams**: Boost sponsored online ads in countries where our customers reside, especially in countries with lower revenue and profit, like Tajikistan, Macedonia, Armenia, and Taiwanto, to improve visibility and drive sales.
+- **Marketing and Digital Advertising Teams**: Boost sponsored online ads in countries where our customers reside, especially in countries with lower revenue and profit, like Tajikistan, Macedonia, Armenia, and Taiwan, to improve visibility and drive sales.
 - **Finance and Operations Teams**: Address recurring loss periods (e.g., February) by analyzing consumer behavior and adjusting inventory, pricing, or promotions to mitigate post-holiday slowdowns.
 - **Sales and Marketing Team**: To drive sales further, target the Consumer segment, the highest revenue-generating group, with personalized promotions and marketing strategies.
 - **Customer Retention Team**: Develop loyalty programs or personalized campaigns for top customers like Sean Miller and Tamara Chand to boost retention and repeat purchases.
